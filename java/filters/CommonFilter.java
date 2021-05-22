@@ -1,5 +1,5 @@
 /*
-* this code adapted from StackOverFlow
+* seen this code from StackOverFlow (url rewrite technique)
 */
 package com.filters;
 
@@ -34,4 +34,9 @@ public class CommonFilter implements Filter {
     @Override
     public void destroy() {
     }
+    
+    //<filter-mapping>
+    //    <filter-name>CommonFilter</filter-name>
+    //    <url-pattern>*.*</url-pattern>
+    //</filter-mapping>
 }
